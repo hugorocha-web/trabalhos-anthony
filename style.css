@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sriracha&display=swap');
+body{
+    background-color: black;
+}
+*{
+    color:aliceblue
+}
+h1{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+}
+#p1{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+#p1 input{
+    color:black;
+    height: 30px;
+    border-radius: 5px;
+}
