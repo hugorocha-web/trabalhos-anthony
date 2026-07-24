@@ -11,8 +11,9 @@ h1{
 }
 #p1{
     width: 400px;
-    margin: auto;
+    margin: 10px auto;
     text-align: center;
+
 }
 #p1 input{
     color:black;
@@ -21,7 +22,7 @@ h1{
 }
 #p2{
     width: 400px;
-    margin: auto;
+    margin: 10px auto;
 }
 #p2 legend{
     text-align: center;
@@ -71,6 +72,21 @@ h1{
     margin: auto;
     text-align: center;
 }
+#footer textarea{
+    color: black;
+}
 #botao{
     color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+#botao:hover{
+    background-color: rgb(141, 141, 141);
+    color: aliceblue;
 }
