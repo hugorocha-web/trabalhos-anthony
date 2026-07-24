@@ -61,7 +61,16 @@ h1{
 #horas{
     text-align: center;
     margin: 20px 0px;
+    color: aliceblue;
 }
 #cor{
     text-align: center;
+}
+#footer{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+#botao{
+    color: black;
 }
