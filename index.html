@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Gamer</title>
+</head>
+
+<body>
+
+    <h1>Crie seu Perfil Gamer</h1>
+
+    <form action="https://webhook.site/seu-codigo-aqui" method="post">
+
+        <!-- Informações pessoais -->
+        <fieldset>
+            <legend>Informações pessoais</legend>
+
+            <p>
+                <label for="nome">Nome:</label>
+                <input 
+                    type="text" 
+                    name="nome" 
+                    id="nome"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="email">E-mail:</label>
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input 
+                    type="tel" 
+                    name="telefone" 
+                    id="telefone"
+                >
+            </p>
+
+            <p>
+                <label for="nascimento">Data de nascimento:</label>
+                <input 
+                    type="date" 
+                    name="nascimento" 
+                    id="nascimento"
+                >
+            </p>
+
+        </fieldset>
+
+
+        <!-- Perfil de jogador -->
+        <fieldset>
+            <legend>Perfil de jogador</legend>
+
+            <p>Qual é o seu nível?</p>
+
+            <input 
+                type="radio" 
+                name="nivel" 
+                id="iniciante"
+                value="iniciante"
+                required
+            >
+            <label for="iniciante">Iniciante</label>
+
+            <input 
+                type="radio" 
+                name="nivel" 
+                id="intermediario"
+                value="intermediario"
+            >
+            <label for="intermediario">Intermediário</label>
+
+            <input 
+                type="radio" 
+                name="nivel" 
+                id="avancado"
+                value="avancado"
+            >
+            <label for="avancado">Avançado</label>
+
+
+            <p>Em quais plataformas você joga?</p>
+
+            <input 
+                type="checkbox" 
+                name="plataforma" 
+                id="pc"
+                value="pc"
+            >
+            <label for="pc">PC</label>
+
+            <input 
+                type="checkbox" 
+                name="plataforma" 
+                id="playstation"
+                value="playstation"
+            >
+            <label for="playstation">PlayStation</label>
+
+            <input 
+                type="checkbox" 
+                name="plataforma" 
+                id="xbox"
+                value="xbox"
+            >
+            <label for="xbox">Xbox</label>
+
+            <input 
+                type="checkbox" 
+                name="plataforma" 
+                id="nintendo"
+                value="nintendo"
+            >
+            <label for="nintendo">Nintendo</label>
+
+
+            <p>
+                <label for="genero">Qual seu gênero de jogo favorito?</label>
+
+                <select name="genero" id="genero">
+                    <option value="fps">FPS</option>
+                    <option value="rpg">RPG</option>
+                    <option value="corrida">Corrida</option>
+                    <option value="estrategia">Estratégia</option>
+                    <option value="esportes">Esportes</option>
+                </select>
+            </p>
+
+
+            <p>
+                <label for="idade">Idade:</label>
+                <input 
+                    type="number" 
+                    name="idade" 
+                    id="idade"
+                    min="10"
+                    max="100"
+                >
+            </p>
+
+
+            <p>
+                <label for="horas">
+                    Quantas horas você joga por semana?
+                </label>
+
+                <input 
+                    type="range" 
+                    name="horas" 
+                    id="horas"
+                    min="0"
+                    max="100"
+                >
+            </p>
+
+
+            <p>
+                <label for="cor">
+                    Escolha a cor do seu perfil:
+                </label>
+
+                <input 
+                    type="color" 
+                    name="cor" 
+                    id="cor"
+                >
+            </p>
+
+        </fieldset>
+
+
+        <!-- Sobre o jogador -->
+        <fieldset>
+            <legend>Sobre você</legend>
+
+            <p>
+                <label for="sobre">
+                    Fale sobre seus jogos favoritos:
+                </label>
+            </p>
+
+            <textarea 
+                name="sobre" 
+                id="sobre"
+                rows="5"
+                cols="40"
+                maxlength="300"
+                placeholder="Escreva aqui..."
+            ></textarea>
+
+        </fieldset>
+
+
+        <!-- Botão de envio -->
+        <p>
+            <input 
+                type="submit" 
+                value="Criar meu perfil"
+            >
+        </p>
+
+    </form>
+
+</body>
+</html>
