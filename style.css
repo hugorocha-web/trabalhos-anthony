@@ -19,3 +19,49 @@ h1{
     height: 30px;
     border-radius: 5px;
 }
+#p2{
+    width: 400px;
+    margin: auto;
+}
+#p2 legend{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.nivel{
+    background-color: aliceblue;
+    color: rgb(22, 27, 35);
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    margin: 15px auto;
+}
+.nivel:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 123, 123);
+}
+#favorito{
+    margin: 40px auto;
+    text-align: center;
+}
+#favorito select{
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-top: 10px;
+    color:rgb(252, 252, 252);
+    background-color: black;
+}
+#idade{
+    text-align: center;
+    color: black;
+}
+#horas{
+    text-align: center;
+    margin: 20px 0px;
+}
+#cor{
+    text-align: center;
+}

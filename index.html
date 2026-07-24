@@ -58,73 +58,72 @@
 
 
       
-        <fieldset>
+        <fieldset id="p2">
             <legend>Perfil de jogador</legend>
 
-            <p>Qual é o seu nível?</p>
+            <p class="nivel">Qual é o seu nível?</p>
 
-            <input 
-                type="radio" 
-                name="nivel" 
-                id="iniciante"
-                value="iniciante"
-                required
-            >
-            <label for="iniciante">Iniciante</label>
-
-            <input 
-                type="radio" 
-                name="nivel" 
-                id="intermediario"
-                value="intermediario"
-            >
-            <label for="intermediario">Intermediário</label>
-
-            <input 
-                type="radio" 
-                name="nivel" 
-                id="avancado"
-                value="avancado"
-            >
-            <label for="avancado">Avançado</label>
-
-
-            <p>Em quais plataformas você joga?</p>
-
-            <input 
-                type="checkbox" 
-                name="plataforma" 
-                id="pc"
-                value="pc"
-            >
-            <label for="pc">PC</label>
-
-            <input 
-                type="checkbox" 
-                name="plataforma" 
-                id="playstation"
-                value="playstation"
-            >
-            <label for="playstation">PlayStation</label>
-
-            <input 
-                type="checkbox" 
-                name="plataforma" 
-                id="xbox"
-                value="xbox"
-            >
-            <label for="xbox">Xbox</label>
-
-            <input 
-                type="checkbox" 
-                name="plataforma" 
-                id="nintendo"
-                value="nintendo"
-            >
-            <label for="nintendo">Nintendo</label>
+            <div class="center">
+                <input
+                    type="radio"
+                    name="nivel"
+                    id="iniciante"
+                    value="iniciante"
+                    required
+                >
+                <label for="iniciante">Iniciante</label>
+                <input
+                    type="radio"
+                    name="nivel"
+                    id="intermediario"
+                    value="intermediario"
+                >
+                <label for="intermediario">Intermediário</label>
+                <input
+                    type="radio"
+                    name="nivel"
+                    id="avancado"
+                    value="avancado"
+                >
+                <label for="avancado">Avançado</label>
+            </div>
 
 
-            <p>
+            <p class="nivel">Em quais plataformas você joga?</p>
+
+            <div class="center">
+                <input
+                    type="checkbox"
+                    name="plataforma"
+                    id="pc"
+                    value="pc"
+                >
+                <label for="pc">PC</label>
+                <input
+                    type="checkbox"
+                    name="plataforma"
+                    id="playstation"
+                    value="playstation"
+                >
+                <label for="playstation">PlayStation</label>
+                <input
+                    type="checkbox"
+                    name="plataforma"
+                    id="xbox"
+                    value="xbox"
+                >
+                <label for="xbox">Xbox</label>
+                <input
+                    type="checkbox"
+                    name="plataforma"
+                    id="nintendo"
+                    value="nintendo"
+                >
+                <label for="nintendo">Nintendo</label>
+            </div>
+
+
+            <div id="favorito">
                 <label for="genero">Qual seu gênero de jogo favorito?</label>
 
                 <select name="genero" id="genero">
@@ -134,10 +133,10 @@
                     <option value="estrategia">Estratégia</option>
                     <option value="esportes">Esportes</option>
                 </select>
-            </p>
+            </div>
 
 
-            <p>
+            <p id="idade">
                 <label for="idade">Idade:</label>
                 <input 
                     type="number" 
@@ -149,7 +148,7 @@
             </p>
 
 
-            <p>
+            <p id="horas">
                 <label for="horas">
                     Quantas horas você joga por semana?
                 </label>
@@ -164,7 +163,7 @@
             </p>
 
 
-            <p>
+            <p id="cor">
                 <label for="cor">
                     Escolha a cor do seu perfil:
                 </label>
