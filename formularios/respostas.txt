@@ -1,0 +1,25 @@
+ 4. Respostas da investigação
+
+GET vs. POST:
+Ao testar os dois métodos, percebi que, usando o método GET, os dados preenchidos no formulário aparecem na própria URL, depois do sinal de interrogação (`?`). Já usando o método POST, os dados são enviados no corpo da requisição e não aparecem diretamente na URL. Para o meu formulário, escolhi o método POST porque ele é mais adequado para enviar informações preenchidas pelo usuário sem deixar esses dados visíveis na URL.
+
+Codificação:
+Ao observar os dados enviados, percebi que alguns caracteres especiais são codificados. Por exemplo, o espaço pode aparecer como `%20` ou `+`, enquanto o símbolo `@` pode aparecer como `%40`. Isso acontece porque os dados precisam ser codificados para serem transmitidos corretamente pela internet e não causarem problemas na interpretação da URL ou da requisição.
+
+ 5. Reflexão
+
+1. Que tema você escolheu e por quê?
+
+Escolhi o tema de um perfil gamer porque gosto de jogos e achei que seria uma forma interessante de aplicar os conhecimentos de formulários HTML em um tema que eu conheço e tenho interesse.
+
+2. Por que você usou GET ou POST no seu formulário?
+
+Escolhi o método POST porque meu formulário coleta informações de um usuário e, nesse caso, considero mais adequado enviar os dados no corpo da requisição em vez de deixá-los visíveis na URL.
+
+3. Cite um momento em que teve que decidir entre dois controles e explique sua escolha.
+
+Um exemplo foi escolher entre radio e checkbox para as plataformas de jogos. Usei checkbox porque o usuário pode jogar em várias plataformas ao mesmo tempo, como PC, PlayStation e Xbox. Já o radio foi usado para o nível do jogador, porque nesse caso a pessoa deve escolher apenas uma opção entre iniciante, intermediário ou avançado.
+
+4. O que você faria diferente se tivesse mais tempo?
+
+Se tivesse mais tempo, eu melhoraria o visual do formulário usando mais CSS, deixando a página mais organizada e agradável para o usuário. Também poderia adicionar alguns recursos opcionais, como sugestões de preenchimento e outras funcionalidades para deixar o formulário mais completo.
